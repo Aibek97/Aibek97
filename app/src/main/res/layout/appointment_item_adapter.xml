@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/rel_bank"
+    android:layout_marginTop="8dp"
+    android:clickable="true"
+    android:background="@drawable/grey_1dp_13rad">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/MyTextRegularTheme"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="24dp"
+        android:text="Кузов"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/img_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/time"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_oclock_time" />
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/MyTextBoldTheme"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:text="35 м | 900 тг."
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/clickableOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground" />
+
+</RelativeLayout>

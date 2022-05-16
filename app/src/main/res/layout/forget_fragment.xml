@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center"
+        style="@style/MyTextRegularTheme"
+        android:layout_marginTop="34dp"
+        android:text="@string/forgot_password"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_gravity="center"
+        style="@style/MyTextRegularTheme"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="45dp"
+        android:text="@string/forget_account"
+        android:textSize="14sp" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyButtonBoldTheme"
+        android:layout_marginTop="27dp"
+        android:text="@string/restore_password"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="64dp"
+            android:layout_marginBottom="73dp"
+            android:src="@drawable/ic_wash_driver_black"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

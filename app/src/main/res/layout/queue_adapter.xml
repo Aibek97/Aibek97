@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+
+    </data>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rel_bank"
+    android:paddingBottom="22dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:clickable="true"
+    android:background="@drawable/grey_1dp_13rad">
+
+    <TextView
+        android:id="@+id/aquaboxText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="21dp"
+        android:text="Aquabox"
+        android:fontFamily="@font/avenir_next_bold"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/freeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="13dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="35 м"
+        android:drawableLeft="@drawable/ic_oclock_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar_indicator"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="14dp"
+        android:stepSize="0.1"
+        app:layout_constraintTop_toBottomOf="@+id/aquaboxText"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/streetText"
+        style="@style/MyTextRegularTheme"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Бокс 1"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ratingBar_indicator" />
+
+    <TextView
+        android:id="@+id/workingText"
+        style="@style/MyTextRegularTheme"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="13dp"
+        android:text="Время до очереди"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/freeText" />
+
+    <TextView
+        android:id="@+id/carTextView"
+        style="@style/MyTextRegularTheme"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="13dp"
+        android:text="Седан | Toyota | 900 AAA 04"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/streetText" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D2D2D2"
+        app:layout_constraintTop_toBottomOf="@id/carTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="22dp"/>
+
+    <TextView
+        android:id="@+id/moika"
+        style="@style/MyTextBoldTheme"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:text="Отменить очередь"
+        android:textSize="12sp"
+        android:textColor="#838383"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"/>
+
+    <TextView
+        android:id="@+id/workingText2"
+        style="@style/MyTextBoldTheme"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="26dp"
+        android:text="Смотреть на карте"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

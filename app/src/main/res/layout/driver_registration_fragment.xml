@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center"
+        style="@style/MyTextRegularTheme"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:text="@string/driver_registration"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="38dp"
+        android:layout_marginTop="24sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:paddingLeft="18dp"
+        android:fontFamily="@font/avenir_next_bold"
+        android:hint="+7"
+        android:background="@drawable/background_edit"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="phone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next"
+        style="@style/MyButtonBoldTheme"
+        android:layout_marginTop="13dp"
+        android:text="@string/next"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/i_am_account"
+        android:layout_gravity="center"
+        style="@style/MyTextBoldTheme"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="@string/i_have_account"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="64dp"
+            android:layout_marginBottom="73dp"
+            android:src="@drawable/ic_wash_driver_black"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

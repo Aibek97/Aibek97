@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WashDriver2</string>
+    <string name="skip">Пропустить</string>
+    <string name="login_to_profile">Войти в профиль</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="not_account">У меня нет аккаунта, регистрация</string>
+    <string name="forget_account">Для восстановления пароля вам будет выслана ссылка для электронный адрес указанный при регистрации. Ссылка пройдя по которой вам будет предложено установка нового пароля для дальнейшего входа в приложение.</string>
+    <string name="restore_password">Восстановить пароль</string>
+    <string name="new_user">Регистрация нового \n пользователя</string>
+    <string name="i_driver">Я водитель</string>
+    <string name="car_wash">Автомойка</string>
+    <string name="i_have_account">У меня есть аккаунт</string>
+    <string name="driver_registration">Регистрация водителя</string>
+    <string name="next">Далее</string>
+    <string name="number_verification">Верификация номера</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="email">Электронная почта</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="duplicate_password">Продублируйте пароль</string>
+    <string name="check_box">Я согласен с Пользовательским соглашением</string>
+    <string name="register">Зарегестрироваться</string>
+    <string name="find_a_sink">Найти мойку</string>
+    <string name="my_reservations">Мои брони</string>
+    <string name="my_profile">Мои профиль</string>
+    <string name="stock">Акции</string>
+    <string name="favorites">Избранное</string>
+    <string name="settings">Настройки</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_to_profile"
+        android:gravity="center"
+        android:fontFamily="@font/avenir_next_regular"
+        android:textColor="@color/white"
+        android:layout_marginTop="34dp"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="38dp"
+        android:layout_marginTop="24sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:paddingLeft="18dp"
+        android:fontFamily="@font/avenir_next_bold"
+        android:hint="+7"
+        android:background="@drawable/background_edit"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="38dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:paddingLeft="18dp"
+        android:fontFamily="@font/avenir_next_bold"
+        android:hint="@string/password"
+        android:textSize="20sp"
+        android:background="@drawable/background_edit"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <com.google.android.material.button.MaterialButton
+      style="@style/MyButtonBoldTheme"
+        android:layout_marginTop="12dp"
+        android:text="@string/login_to_profile"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:layout_gravity="center"
+        style="@style/MyTextRegularTheme"
+        android:layout_marginTop="16dp"
+        android:text="@string/forgot_password"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nowRegister"
+        style="@style/MyButtonBoldTheme"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/not_account"
+        android:textSize="16sp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="64dp"
+        android:layout_marginBottom="73dp"
+        android:src="@drawable/ic_wash_driver_black"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+</LinearLayout>
